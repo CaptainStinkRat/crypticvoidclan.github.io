@@ -10,7 +10,7 @@ theme = 'glim-midnight'
     title = "Cryptic Void"
     phrases = ["Community", "Fun", "Old School Runescape"]
     links = [
-    {name = "Discord", url = "https://github.com/mansoorbarri/glim-midnight/"},    
+    {name = "Discord", url = "https://discord.gg/crypticvoiders"},    
     {name = "Announcements", url = "/announcements"}
 ] 
     backgroundVideo = "bg.mp4"
