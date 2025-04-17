@@ -11,7 +11,9 @@ theme = 'glim-midnight'
     phrases = ["Community", "Fun", "Old School Runescape"]
     links = [
     {name = "Discord", url = "https://discord.gg/crypticvoiders"},    
-    {name = "Announcements", url = "/announcements"}
+    {name = "Announcements", url = "/announcements"},
+    {name = "Skill of the Week", url ="/skill-of-the-week"},	
+    {name = "Boss of the Week", url="/Boss-of-the-week"}
 ] 
     backgroundVideo = "bg.mp4"
     footer = "Made with ❤️ by <a href='https://mansoorbarri.com/' target='_blank'>Mansoor Barri</a>"
