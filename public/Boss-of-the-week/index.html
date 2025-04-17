@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html>
+<style>
+.video-bg {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="/styles.css">
-  <title>{{ block "title" . }}
-    {{ .Site.Title }}
-    {{ end }}</title>
-</head>
+.video-bg video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: 0;
+  filter: brightness(0.5); /* optional darkness */
+}
 
-<body>
-  {{ partial "navbar.html" . }}
-  {{ block "main" . }}
-  <body class="dag-kings-bg">
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+}
+</style>
+<div class="video-bg">
+  <video autoplay muted loop playsinline>
+    <source src="dagannoth-kings-loop.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
   <div class="content">
     <h1>Dagannoth Kings</h1>
-    <p>Welcome to the lair beneath Waterbirth Island...</p>
+    <p>Enter if you dare...</p>
   </div>
-</body>
-<!-- The part of the page that begins to differ between templates -->
-  {{ end }}
-  {{ partial "footer.html" . }}
-</body>
-
+</div>
 </html>
