@@ -8,10 +8,10 @@ theme = 'glim-midnight'
 
 [params]
     title = "Cryptic Void"
-    phrases = ["Hugo", "Dark", "Minimal", "Responsive"]
+    phrases = ["Community", "Fun", "Old School Runescape"]
     links = [
     {name = "Discord", url = "https://github.com/mansoorbarri/glim-midnight/"},    
-    {name = "Hugo", url = "https://gohugo.io/"},    
-    ] 
+    {name = "Announcements", url = "/announcements"}
+] 
     backgroundVideo = "bg.mp4"
     footer = "Made with ❤️ by <a href='https://mansoorbarri.com/' target='_blank'>Mansoor Barri</a>"
