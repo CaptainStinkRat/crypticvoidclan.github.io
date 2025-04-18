@@ -117,3 +117,27 @@ footer a:hover {
         height: 100vh !important;
     }
 }
+/* CSS */
+.boss-card {
+    max-width: 350px;
+    background: #1a1a1a;
+    color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+  .boss-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .boss-card h2 {
+    margin-top: 10px;
+    color: #f2b600;
+  }
+  .boss-card ul {
+    padding-left: 20px;
+  }
+  .boss-card li {
+    margin-bottom: 5px;
+  }
