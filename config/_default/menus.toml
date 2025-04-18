@@ -1,25 +1,19 @@
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
+  name = "announcements"
+  pageRef = "announcements"
   weight = 10
 
 [[main]]
-  name = "Topics"
-  pageRef = "topics"
+  name = "skill of the week"
+  pageRef = "skill-of-the-week"
   weight = 20
 
 [[main]]
-  pre = "github"
-  name = "GitHub"
-  url = "https://github.com/nunocoracao/blowfish"
+  name = "boss of the week"
+  url = "boss-of-the-week"
   weight = 30
 
-[[main]]
-  identifier = "github2"
-  pre = "github"
-  url = "https://github.com/nunocoracao/blowfish"
-  weight = 40
 
 [[footer]]
-  name = "Privacy"
-  url = "https://external-link"
+  name = "Made with love by Dad Pvmer"
+  url = "https://cyberwizardlabs.com"
