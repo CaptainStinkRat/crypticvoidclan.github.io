@@ -1,17 +1,22 @@
 [[main]]
+  name = "discord"
+  url = "discord.gg/crypticvoiders"
+  
+[[main]]
   name = "announcements"
   pageRef = "announcements"
-  weight = 10
+  weight = 20
 
 [[main]]
   name = "skill of the week"
-  pageRef = "skill-of-the-week"
-  weight = 20
+  url = "skill-of-the-week"
+  weight = 30
 
 [[main]]
   name = "boss of the week"
   url = "boss-of-the-week"
-  weight = 30
+  weight = 40
+
 
 
 [[footer]]

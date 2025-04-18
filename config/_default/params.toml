@@ -1,3 +1,15 @@
 colorScheme = 'Bloody'
 homepage.layout = "hero"
 homepage.homepageImage = 'https://blog.playerauctions.com/wp-content/uploads/2020/11/How-to-Get-Elite-Void-OSRS.jpg'
+[article]
+  showHero = true
+  heroStyle = "background" 
+  showSummary = true
+  showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 3
+
+[list]
+  showCards = true
+  groupByYear = false
+  cardView = true
