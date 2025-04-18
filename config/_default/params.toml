@@ -1,6 +1,16 @@
 colorScheme = 'Bloody'
-homepage.layout = "hero"
-homepage.homepageImage = 'https://blog.playerauctions.com/wp-content/uploads/2020/11/How-to-Get-Elite-Void-OSRS.jpg'
+[homepage]
+  layout = "background" # valid options: page, profile, hero, card, background, custom
+  homepageImage = "https://blog.playerauctions.com/wp-content/uploads/2020/11/How-to-Get-Elite-Void-OSRS.jpg" # used in: hero, and card
+  showRecent = true
+  showRecentItems = 6
+  showMoreLink = true
+  showMoreLinkDest = "/posts"
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = true
+[header]
+  layout = "fixed"
 [article]
   showHero = true
   heroStyle = "background" 
