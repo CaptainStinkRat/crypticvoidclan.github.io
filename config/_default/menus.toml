@@ -1,10 +1,10 @@
 [[main]]
   name = "discord"
-  url = "discord.gg/crypticvoiders"
-  
+  url = "https://discord.gg/crypticvoiders"
+
 [[main]]
   name = "announcements"
-  pageRef = "announcements"
+  url = "announcements"
   weight = 20
 
 [[main]]
